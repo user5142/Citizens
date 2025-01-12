@@ -1,3 +1,3 @@
-# <a href="https://benhatch.com/" target="_blank">benhatch.com</a>
+# <a href="https://citizensoftheinter.net" target="_blank">Citizens of the Internet</a>
 
-My little slice of the web -- built with HTML, CSS and JavaScript and featuring my projects, articles, contact info and more.
+A growing collection of unique, inspiring and expertly-crafted personal websites from across the internet.
