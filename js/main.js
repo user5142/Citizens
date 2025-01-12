@@ -94,18 +94,6 @@ function copyEmail() {
   });
 }
 
-/* Header drop shadow
-window.addEventListener('scroll', function () {
-  const navbar = document.querySelector('.fixed-header');
-  const scrolled = window.scrollY;
-
-  if (scrolled > 0) {
-    navbar.classList.add('shadow');
-  } else {
-    navbar.classList.remove('shadow');
-  }
-});*/
-
 // Display and hide hamburger menu on click
 const burgerMenu = () => {
   const burgerMenu = document.querySelector("#burger-links");
