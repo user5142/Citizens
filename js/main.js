@@ -22,7 +22,7 @@ if (header != undefined) {
             </div>
         </header>
         <div id="burger-links">
-            <a href="https://citizensoftheinter.net/home">Home/a>
+            <a href="https://citizensoftheinter.net/home">Home</a>
             <a href="https://citizensoftheinter.net/about">About</a>
         </div>
     </div>
@@ -36,17 +36,14 @@ if (header2 != undefined) {
         <header>
             <ul>
                 <div class="nav-pages">
-                    <li id="home"><a href="https://benhatch.com/">Ben Hatch</a></li>
-                    <li><a href="https://benhatch.com/blog">blog</a></li>
-                    <li><a href="https://benhatch.com/about">about</a></li>
-                    <li><a href="https://benhatch.com/now">now</a></li>
-                    <!-- <div class="nav-socials">
-                    <li><a href="https://www.youtube.com/@henbatch" target="_blank"><img src="../images/youtube-icon.svg" alt="YouTube icon"></a></li>
-                    </div> -->
+                    <li id="home"><a href="https://citizensoftheinter.net"><img class="logo" src="../images/Citizens Logo 1.svg"></a></li>
+                    <div class="nav-links">
+                    <li><a href="https://citizensoftheinter.net/home">Home</a></li>
+                    <li><a href="https://citizensoftheinter.net/about">About</a></li>
                 </div>
             </ul>
             <div class="mobile-nav">
-                <h3 id="home"><a href="https://benhatch.com/">Ben Hatch</a></h3>
+                <li id="home"><a href="https://citizensoftheinter.net"><img class="logo" src="../images/Citizens Logo 1.svg"></a></li>
                 <a id="hamburger-icon">
                     <img id="burger-icon" src="../images/bh-hamburger-2.svg" alt="hamburger icon"><img id="x-icon"
                         src="../images/bh-x-2.svg">
@@ -54,10 +51,8 @@ if (header2 != undefined) {
             </div>
         </header>
         <div id="burger-links">
-            <a href="https://benhatch.com/blog">blog</a>
-            <a href="https://benhatch.com/about">about</a>
-            <a href="https://benhatch.com/now">now</a>
-            <!-- <a href="https://www.youtube.com/@henbatch" target="_blank"><img src="../images/youtube-icon.svg" alt="YouTube icon"></a> -->
+            <a href="https://citizensoftheinter.net/home">Home</a>
+            <a href="https://citizensoftheinter.net/about">About</a>
         </div>
     </div>
 `

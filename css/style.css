@@ -24,16 +24,16 @@ h1 {
     font-family: 'Outfit', sans-serif;
     font-weight: 500;
     font-size: 2.4rem;
-    color: #080806;
+    color: #65085C;
     line-height: 1.2;
     letter-spacing: 1px;
 }
 
 h2 {
     font-family: 'Outfit', sans-serif;
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 400;
-    color: #080806;
+    color: #65085C;
     line-height: 1.1;
 }
 
@@ -46,7 +46,7 @@ h3 {
 
 h4 {
     font-size: 1.2rem;
-    color: #69696F;
+    color: #080806;
     line-height: 1.4;
 }
 
@@ -260,7 +260,7 @@ header ul li a:hover {
 
 #burger-links {
     display: none;
-    background-color: #F4F3F0;
+    background-color: #FFFFFF;
     padding-bottom: 1rem;
 }
 
@@ -279,6 +279,10 @@ header ul li a:hover {
     font-size: 1.1rem;
     display: block;
     text-align: left;
+}
+
+.mobile-nav li {
+    list-style: none;
 }
 
 @media only screen and (min-width: 770px) {
@@ -481,7 +485,26 @@ header ul li a:hover {
     }
 }
 
-@media only screen and (max-width: 500px) {}
+/* Site Feature */
+
+.site-feature {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 8rem 1rem 0 1rem;
+}
+
+.site-feature-card-container {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    max-width: 50rem;
+}
+
+.site-feature-card-screenshot {
+    border-radius: .3rem;
+}
 
 /* About */
 
@@ -537,457 +560,6 @@ header ul li a:hover {
 @media only screen and (max-width: 800px) {
     .about {
         padding: 8.5rem 1rem 0 1rem;
-    }
-}
-
-/* Now */
-
-.now {
-    display: flex;
-    flex-flow: column;
-    margin: 0 auto;
-    gap: 2rem;
-    max-width: 44rem;
-    padding: 8rem 1.5rem 0 1.5rem;
-}
-
-.now-update-time,
-.disclaimer {
-    font-size: 1rem;
-    font-weight: 200;
-}
-
-.now h3 {
-    font-weight: 500;
-}
-
-.now-block {
-    display: flex;
-    flex-flow: column;
-    gap: 1.2rem;
-}
-
-.now .email-subscribe {
-    padding: 4rem 0 0 0;
-}
-
-@media only screen and (max-width: 800px) {
-    .now {
-        padding: 8.5rem 1rem 0 1rem;
-    }
-}
-
-/* Blog */
-
-.all-articles {
-    display: flex;
-    flex-flow: column;
-    align-items: start;
-    padding: 8rem 0 0 0;
-    gap: 4rem;
-}
-
-.articles-block {
-    display: flex;
-    flex-flow: column;
-    gap: 4rem;
-    min-width: 44rem;
-    max-width: 44rem;
-    margin: 0 auto;
-}
-
-.article-year-block {
-    display: flex;
-    flex-flow: column;
-    gap: 1.5rem;
-}
-
-.article-year {
-    font-weight: 600;
-}
-
-.article-titles {
-    display: flex;
-    flex-flow: column;
-    gap: 1.5rem;
-}
-
-.all-articles h3 {
-    font-size: 1.4rem;
-}
-
-.all-articles .email-subscribe {
-    padding: 4rem 0 0 0;
-}
-
-@media only screen and (max-width: 1000px) {
-    .all-articles {
-        padding: 8rem 1rem 0 1rem;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .articles-block {
-        min-width: 100%;
-        max-width: 100%;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .all-articles {
-        padding: 8rem 1rem 0 1rem;
-    }
-}
-
-/* Article */
-
-.article {
-    display: flex;
-    flex-flow: column;
-    gap: 2rem;
-    width: 44rem;
-    margin: 0 auto;
-    padding: 8rem 1rem 4rem 1rem;
-}
-
-.article-header {
-    display: flex;
-    flex-flow: column;
-    gap: .8rem;
-}
-
-.article-info {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.article-info p,
-.image-text {
-    font-size: 1rem;
-    font-weight: 200;
-}
-
-.writing-category,
-.writing-genre {
-    border: 1px solid #9a9a9c;
-    border-radius: .2rem;
-    padding: 0 .4rem;
-}
-
-.article-body {
-    display: flex;
-    flex-flow: column;
-    gap: 1.5rem;
-    margin: 0 auto;
-}
-
-.article-body h2 {
-    padding: .5rem 0 0 0;
-}
-
-.article-body h3 {
-    font-weight: 500;
-    padding: .5rem 0 .5rem 0;
-}
-
-.article-body span {
-    font-weight: 500;
-}
-
-.blog-image {
-    display: flex;
-    flex-flow: column;
-    gap: .5rem;
-    padding: .4rem 0 0 0;
-}
-
-.blog-image img {
-    max-width: 100%;
-    border-radius: 5px;
-}
-
-.div-line {
-    height: 1px;
-    background: #080806;
-    border: none;
-}
-
-.story-break {
-    margin: 0 auto;
-    padding: 1rem 0;
-}
-
-.article .email-subscribe {
-    padding: 4rem 0 0 0;
-}
-
-@media only screen and (min-width: 700px) {
-    .article {
-        gap: 2rem;
-        margin: 0 auto;
-        padding: 8rem 0 4rem 0;
-        max-width: 44rem;
-    }
-
-    .article-body {
-        display: flex;
-        flex-flow: column;
-        align-content: space-between;
-        gap: 1.5rem;
-        max-width: 60rem;
-        margin: 0 auto;
-        padding: 0 0 0 0;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    .article {
-        width: auto;
-        max-width: 100%;
-        margin: 0;
-        padding: 8rem 1rem 4rem 1rem;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .article {
-        padding: 8rem 1rem 4rem 1rem;
-    }
-}
-
-/* Shop */
-
-.shop-all {
-    margin: 0 10rem;
-}
-
-.products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 24rem));
-    justify-content: center;
-    justify-items: center;
-    gap: 4rem;
-    padding: 12rem 0 20rem 0;
-}
-
-.product-cover {
-    display: flex;
-    flex-flow: column;
-    gap: 1.5rem;
-}
-
-.product-cover:hover {
-    cursor: pointer;
-    opacity: .8;
-}
-
-.product-cover img {
-    max-width: 100%;
-    border-radius: 5px;
-}
-
-.product-cover h2,
-.product-cover h4 {
-    text-align: center;
-}
-
-.product-cover h2 {
-    font-size: 1.5rem;
-}
-
-@media only screen and (max-width: 1425px) {
-    .shop-all {
-        margin: 0 5rem;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .shop-all {
-        margin: 0 2rem;
-    }
-}
-
-@media only screen and (max-width: 770px) {
-    .products-grid {
-        grid-template-columns: repeat(auto-fit, minmax(20rem, 24rem));
-        gap: 4rem;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .shop-all {
-        margin: 4rem 1rem 0 1rem;
-    }
-
-    .products-grid {
-        display: flex;
-        flex-flow: column;
-        padding: 4rem 0 4rem 0;
-    }
-}
-
-/* Product Page */
-
-.product-feature {
-    display: flex;
-    flex-flow: column;
-    gap: 10rem;
-    padding: 12rem 10rem 12rem 10rem;
-}
-
-.product-images img {
-    max-width: 100%;
-    width: 44rem;
-    border-radius: 5px;
-}
-
-.product-image-bottom-container {
-    display: flex;
-    flex-flow: column;
-    gap: 4rem;
-}
-
-.product-image-bottom-container img {
-    max-width: 100%;
-    width: 100%;
-    border-radius: 5px;
-}
-
-.product-info {
-    max-width: 40%;
-    display: flex;
-    flex-flow: column;
-    gap: 1.5rem;
-}
-
-.button-container {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.product-button a {
-    color: white;
-    text-decoration: none;
-}
-
-.product-copy {
-    display: flex;
-    flex-flow: column;
-    gap: 1.5rem;
-}
-
-.product-copy h2 {
-    padding: 0 0 1rem 0;
-}
-
-@media only screen and (min-width: 1510px) {
-    .product-feature {
-        display: flex;
-        flex-flow: row;
-        gap: 10rem;
-        margin: 0 auto;
-        padding: 12rem 0 2rem 0;
-        width: 80rem;
-    }
-
-    .product-image-bottom-container {
-        margin: 0 auto;
-        padding: 6rem 0 6rem 0;
-        width: 80rem;
-    }
-
-    .product-copy {
-        display: flex;
-        flex-flow: column;
-        gap: 1.5rem;
-        margin: 0 auto;
-        padding: 6rem 0 0 0;
-        width: 42rem;
-    }
-}
-
-@media only screen and (max-width: 1510px) {
-    .product-page {
-        padding: 0 10rem;
-    }
-
-    .product-feature {
-        padding: 12rem 5rem 0 5rem;
-        gap: 5rem;
-    }
-
-    .product-info {
-        margin: 0 auto;
-        max-width: 42rem;
-    }
-
-    .product-images img {
-        max-width: 100%;
-        width: 100%;
-        border-radius: 5px;
-    }
-
-    .product-image-bottom-container {
-        padding: 6rem 5rem;
-    }
-
-    .product-copy {
-        padding: 6rem 5rem 0 5rem;
-        margin: 0 auto;
-        max-width: 42rem;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .product-page {
-        padding: 0;
-    }
-
-    .product-feature {
-        padding: 10rem 3rem 0 3rem;
-        gap: 5rem;
-    }
-
-    .product-image-bottom-container {
-        padding: 6rem 3rem;
-    }
-
-    .product-copy {
-        padding: 6rem 3rem 0 3rem;
-    }
-}
-
-@media only screen and (max-width: 770px) {
-    .product-feature {
-        padding: 10rem 1rem 0 1rem;
-        gap: 5rem;
-    }
-
-    .product-image-bottom-container {
-        padding: 6rem 1rem;
-    }
-
-    .product-copy {
-        padding: 6rem 1rem 0 1rem;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .product-feature {
-        padding: 8rem 1rem 0 1rem;
-        gap: 3rem;
-    }
-
-    .product-image-bottom-container {
-        padding: 3rem 1rem 6rem 1rem;
-    }
-
-    .product-copy {
-        padding: 3rem 1rem 0 1rem;
     }
 }
 
