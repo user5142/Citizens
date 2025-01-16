@@ -498,12 +498,45 @@ header ul li a:hover {
 .site-feature-card-container {
     display: flex;
     flex-flow: column;
-    gap: 1rem;
+    gap: 1.5rem;
     max-width: 50rem;
 }
 
 .site-feature-card-screenshot {
     border-radius: .3rem;
+}
+
+.category-container {
+    display: flex;
+    flex-flow: row;
+    gap: 1.8rem;
+    align-items: baseline;
+}
+
+.platform-container {
+    display: flex;
+    flex-flow: row;
+    gap: 1.5rem;
+    align-items: baseline;
+}
+
+.category-label, .built-with-label {
+    font-size: .8rem;
+    color: #69696F;
+}
+
+.site-category, .built-with-category {
+    font-size: 1rem;
+    color: #69696F;
+    border: 1px solid #69696F;
+    padding: 2px 8px;
+    border-radius: 1.5rem;
+}
+
+.categories-container, .built-with-container {
+    display: flex;
+    flex-flow: row;
+    gap: .8rem;
 }
 
 /* About */
