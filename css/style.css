@@ -455,40 +455,41 @@ header ul li a:hover {
 .site-feature-card-screenshot {
     border-radius: .3rem;
     max-width: 100%;
+    border: 1px solid #e0e0e0;
 }
 
 .category-container {
     display: flex;
     flex-flow: row;
-    gap: 1.8rem;
+    gap: 1.9rem;
     align-items: baseline;
 }
 
 .platform-container {
     display: flex;
     flex-flow: row;
-    gap: 1.5rem;
+    gap: 1.6rem;
     align-items: baseline;
 }
 
 .features-container {
     display: flex;
     flex-flow: row;
-    gap: 2.2rem;
+    gap: 2.3rem;
     align-items: baseline;
 }
 
 .link-container {
     display: flex;
     flex-flow: row;
-    gap: 4.9rem;
+    gap: 5rem;
     align-items: baseline;
 }
 
 .published-container {
     display: flex;
     flex-flow: row;
-    gap: 1.7rem;
+    gap: 1.8rem;
     align-items: baseline;
 }
 
