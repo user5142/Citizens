@@ -38,9 +38,9 @@ h2 {
 }
 
 h3 {
-    font-size: 1.32rem;
+    font-size: 1.3rem;
     font-weight: 400;
-    color: #65085C;
+    color: #080806;
     line-height: 1.4;
 }
 
@@ -426,8 +426,12 @@ header ul li a:hover {
 }
 
 .website-card-bottom a:hover {
-    cursor: pointer;
     text-decoration: none;
+}
+
+.website-card-bottom h3:hover {
+    cursor: pointer;
+    color: #65085C;
 }
 
 .person-category {
