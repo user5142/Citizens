@@ -430,7 +430,7 @@ header ul li a:hover {
     text-decoration: none;
 }
 
-.website-card-bottom h3:hover {
+.website-card-bottom h4:hover {
     cursor: pointer;
     color: #65085C;
 }
