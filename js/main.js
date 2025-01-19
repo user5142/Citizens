@@ -58,37 +58,6 @@ if (header2 != undefined) {
 `
 }
 
-// Email subscribe text component
-const emailSubscribe = document.querySelector(".email-subscribe-text");
-if (emailSubscribe != undefined) {
-  emailSubscribe.innerHTML = `
-  <h3>Join my email list</h3>
-  <p>I send occasional updates on my writing, projects and miscellaneous dad musings. Short and sweet, no tl;dr drivel.</p>
-  `
-}
-
-// Copy email to clipboard
-function copyEmail() {
-  const copy = document.getElementById('copy-icon');
-  const checkmark = document.getElementById('checkmark-icon');
-  const contactButton = document.getElementById('contact-button-text');
-  const email = "b3nhatch@gmail.com";
-  navigator.clipboard.writeText(email).then(() => {
-    // Show notification;
-    copy.style.display = 'none';
-    checkmark.style.display = 'inline';
-    contactButton.innerHTML = `Email address copied`;
-    // Hide the notification after 3 seconds
-    setTimeout(() => {
-      checkmark.style.display = 'none';
-      copy.style.display = 'inline';
-      contactButton.innerHTML = `b3nhatch@gmail.com`;
-    }, 3000);
-  }).catch(err => {
-    console.error('Failed to copy: ', err);
-  });
-}
-
 // Display and hide hamburger menu on click
 const burgerMenu = () => {
   const burgerMenu = document.querySelector("#burger-links");
