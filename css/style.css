@@ -424,7 +424,7 @@ header ul li a:hover {
 .site-feature-card-container {
     display: flex;
     flex-flow: column;
-    gap: 1.5rem;
+    gap: 1.2rem;
     max-width: 50rem;
 }
 
@@ -436,6 +436,19 @@ header ul li a:hover {
 }
 
 .header-top {
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    gap: 1rem;
+    width: 100%;
+}
+
+.pfp {
+    width: 4rem;
+    border-radius: 10rem;
+}
+
+.header-text {
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -461,7 +474,7 @@ header ul li a:hover {
 .category-container {
     display: flex;
     flex-flow: row;
-    gap: 1.9rem;
+    gap: 2rem;
     align-items: baseline;
 }
 
@@ -479,13 +492,6 @@ header ul li a:hover {
     align-items: baseline;
 }
 
-.link-container {
-    display: flex;
-    flex-flow: row;
-    gap: 5rem;
-    align-items: baseline;
-}
-
 .published-container {
     display: flex;
     flex-flow: row;
@@ -493,11 +499,26 @@ header ul li a:hover {
     align-items: baseline;
 }
 
+.unique-id-container {
+    display: flex;
+    flex-flow: row;
+    gap: 3.8rem;
+    align-items: baseline;
+}
+
+.link-container {
+    display: flex;
+    flex-flow: row;
+    gap: 5rem;
+    align-items: baseline;
+}
+
 .category-label,
 .built-with-label,
 .features-label,
 .url-label,
-.published-label {
+.published-label,
+.site-number-label {
     font-size: .8rem;
     color: #69696F;
 }
@@ -506,7 +527,8 @@ header ul li a:hover {
 .built-with-container,
 .features-category-container,
 .url-container,
-.publish-date-container {
+.publish-date-container, 
+.site-number-container {
     display: flex;
     flex-flow: row;
     gap: .6rem;
@@ -526,7 +548,8 @@ header ul li a:hover {
     font-size: 1rem;
 }
 
-.publish-date {
+.publish-date,
+.site-number {
     font-size: 1rem;
     color: #69696F;
 }
