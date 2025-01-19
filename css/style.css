@@ -550,7 +550,7 @@ header ul li a:hover {
 .platform-container {
     display: flex;
     flex-flow: row;
-    gap: 1.6rem;
+    gap: 1.65rem;
     align-items: baseline;
 }
 
@@ -571,14 +571,14 @@ header ul li a:hover {
 .unique-id-container {
     display: flex;
     flex-flow: row;
-    gap: 3.8rem;
+    gap: 3.5rem;
     align-items: baseline;
 }
 
 .link-container {
     display: flex;
     flex-flow: row;
-    gap: 5rem;
+    gap: 4.9rem;
     align-items: baseline;
 }
 
