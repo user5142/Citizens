@@ -46,7 +46,6 @@ h3 {
 
 h4 {
     font-size: 1.2rem;
-    font-weight: 400;
     color: #080806;
     line-height: 1.4;
 }
@@ -343,6 +342,10 @@ header ul li a:hover {
     flex-flow: column;
     align-items: start;
     gap: .75rem;
+}
+
+.website-card-container h4 {
+    font-weight: 400;
 }
 
 .website-card-screenshot {
