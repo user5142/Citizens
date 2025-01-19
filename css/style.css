@@ -540,45 +540,15 @@ header ul li a:hover {
     border: 1px solid #e0e0e0;
 }
 
-.category-container {
-    display: flex;
-    flex-flow: row;
-    gap: 2rem;
-    align-items: baseline;
-}
-
-.platform-container {
-    display: flex;
-    flex-flow: row;
-    gap: 1.65rem;
-    align-items: baseline;
-}
-
-.features-container {
-    display: flex;
-    flex-flow: row;
-    gap: 2.3rem;
-    align-items: baseline;
-}
-
-.published-container {
-    display: flex;
-    flex-flow: row;
-    gap: 1.8rem;
-    align-items: baseline;
-}
-
-.unique-id-container {
-    display: flex;
-    flex-flow: row;
-    gap: 3.5rem;
-    align-items: baseline;
-}
-
+.category-container,
+.platform-container,
+.features-container,
+.published-container,
+.unique-id-container,
 .link-container {
     display: flex;
     flex-flow: row;
-    gap: 4.9rem;
+    gap: 2rem;
     align-items: baseline;
 }
 
@@ -590,6 +560,7 @@ header ul li a:hover {
 .site-number-label {
     font-size: .8rem;
     color: #69696F;
+    width: 6rem;
 }
 
 .categories-container,
