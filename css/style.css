@@ -256,7 +256,6 @@ header ul li a:hover {
 }
 
 .mobile-nav img {
-    width: 1.8rem;
     max-width: 100%;
 }
 
@@ -291,16 +290,16 @@ header ul li a:hover {
     list-style: none;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 1576px) {
     header {
         margin: 0 auto;
         width: 94rem;
     }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1576px) {
     header {
-        padding: 0 1rem;
+        padding: 0 2rem;
     }
 
     #burger-links a {
@@ -316,11 +315,17 @@ header ul li a:hover {
         flex-flow: row;
         justify-content: space-between;
         align-items: center;
-        height: 4rem;
+        height: 4.5rem;
     }
 
     #hamburger-icon {
         width: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    header {
+        padding: 0 1rem;
     }
 }
 
@@ -443,40 +448,62 @@ header ul li a:hover {
     color: #69696F;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 1576px) {
     .hero {
-        gap: 2rem;
         margin: 0 auto;
         width: 94rem;
         padding: 8rem 1rem 0 1rem;
     }
 }
 
+@media only screen and (max-width: 1576px) {
+    .hero {
+        padding: 8rem 2rem 0 2rem;
+    }
+
+    .hero-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1102px) {
+    .hero {
+        padding: 8rem 2rem 0 2rem;
+    }
+    
+    .hero-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+    .website-card-bottom {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
 @media only screen and (max-width: 770px) {
-    .hero-bio {
-        padding: 0;
+    .hero {
+        padding: 7rem 1rem 0 1rem;
     }
-
-    .hero-left .email-subscribe {
-        padding: 0;
+    
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
-
-    .hero-left,
-    .hero-right,
-    .hero-articles,
-    .hero-articles-container {
-        width: 100%;
-        min-width: auto;
-        max-width: 100%;
+    
+    .website-card-container {
+        gap: 0.5rem;
     }
-
-    .hero-right h4 {
-        padding: 0;
+    
+    .person-category {
+        font-size: 0.9rem;
     }
-
-    .article-card {
-        min-width: 0;
-        padding: 1rem 0;
+    
+    .website-card-bottom button {
+        font-size: 1rem;
+        padding: 0.25rem 0.6rem;
     }
 }
 
