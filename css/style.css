@@ -471,12 +471,12 @@ header ul li a:hover {
     .hero {
         padding: 8rem 2rem 0 2rem;
     }
-    
+
     .hero-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
-    
+
     .website-card-bottom {
         flex-direction: column;
         gap: 0.5rem;
@@ -487,20 +487,20 @@ header ul li a:hover {
     .hero {
         padding: 7rem 1rem 0 1rem;
     }
-    
+
     .hero-grid {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    
+
     .website-card-container {
         gap: 0.5rem;
     }
-    
+
     .person-category {
         font-size: 0.9rem;
     }
-    
+
     .website-card-bottom button {
         font-size: 1rem;
         padding: 0.25rem 0.6rem;
@@ -522,6 +522,7 @@ header ul li a:hover {
     flex-flow: column;
     gap: 1.2rem;
     max-width: 50rem;
+    width: 100%;
 }
 
 .feature-header {
@@ -619,6 +620,86 @@ header ul li a:hover {
 .site-number {
     font-size: 1rem;
     color: #69696F;
+}
+
+@media only screen and (max-width: 1024px) {
+    .site-feature {
+        padding: 8rem 2rem 0 2rem;
+    }
+
+    .site-feature-card-container {
+        gap: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .site-feature {
+        padding: 8rem 1rem 0 1rem;
+    }
+
+    .category-container,
+    .platform-container,
+    .features-container,
+    .published-container,
+    .unique-id-container,
+    .link-container {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .category-label,
+    .built-with-label,
+    .features-label,
+    .url-label,
+    .published-label,
+    .site-number-label {
+        width: auto;
+    }
+
+    .categories-container,
+    .built-with-container,
+    .features-category-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .site-feature {
+        padding: 7rem 1rem 0 1rem;
+    }
+
+    .feature-header {
+        gap: 1.5rem;
+    }
+
+    .header-top {
+        gap: 0.8rem;
+    }
+
+    .pfp {
+        width: 3.5rem;
+    }
+
+    .header-text {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .site-category,
+    .built-with-category,
+    .feature-category {
+        font-size: 0.9rem;
+        padding: 1px 8px;
+    }
+
+    .screenshot-container {
+        padding: 0.5rem 0 0 0;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
 }
 
 /* About */
