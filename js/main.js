@@ -8,7 +8,7 @@ if (header != undefined) {
                 <div class="nav-pages">
                     <li id="home"><a href="https://citizensoftheinter.net"><img class="logo" src="images/Citizens Logo 1.svg"></a></li>
                     <div class="nav-links">
-                      <li><a href="https://citizensoftheinter.net/home">Home</a></li>
+                      <li><a href="https://citizensoftheinter.net">Home</a></li>
                       <li><a href="https://citizensoftheinter.net/about">About</a></li>
                     </div>
                 </div>
@@ -22,7 +22,7 @@ if (header != undefined) {
             </div>
         </header>
         <div id="burger-links">
-            <a href="https://citizensoftheinter.net/home">Home</a>
+            <a href="https://citizensoftheinter.net">Home</a>
             <a href="https://citizensoftheinter.net/about">About</a>
         </div>
     </div>
