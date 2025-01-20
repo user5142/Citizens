@@ -263,6 +263,10 @@ header ul li a:hover {
     display: none;
 }
 
+#burger-icon, #x-icon {
+    width: 2rem;
+}
+
 #burger-links {
     display: none;
     background-color: #FFFFFF;
@@ -301,6 +305,12 @@ header ul li a:hover {
     header {
         padding: 0 2rem;
     }
+}
+
+@media only screen and (max-width: 770px) {
+    header {
+        padding: 0 1rem;
+    }
 
     #burger-links a {
         padding: 1.4rem 1rem;
@@ -320,12 +330,6 @@ header ul li a:hover {
 
     #hamburger-icon {
         width: 2.2rem;
-    }
-}
-
-@media only screen and (max-width: 770px) {
-    header {
-        padding: 0 1rem;
     }
 }
 
