@@ -744,7 +744,7 @@ header ul li a:hover {
     margin: 0 auto;
     gap: 2rem;
     max-width: 44rem;
-    padding: 8rem 1rem 26rem 1rem;
+    padding: 8rem 1rem 16rem 1rem;
 }
 
 .social-icons {
@@ -789,7 +789,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 800px) {
     .about {
-        padding: 8.5rem 1rem 10rem 1rem;
+        padding: 7rem 1rem 10rem 1rem;
     }
 }
 
