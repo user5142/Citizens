@@ -46,7 +46,7 @@ h3 {
 
 h4 {
     font-size: 1.2rem;
-    color: #080806;
+    color: #65085C;
     line-height: 1.4;
 }
 
@@ -448,7 +448,7 @@ header ul li a:hover {
 
 .website-card-bottom h4:hover {
     cursor: pointer;
-    color: #65085C;
+    color: #a60b97;
 }
 
 .person-category {
@@ -484,11 +484,6 @@ header ul li a:hover {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
-
-    /*.website-card-bottom {
-        flex-direction: column;
-        gap: 0.5rem;
-    }*/
 }
 
 @media only screen and (max-width: 770px) {
