@@ -456,7 +456,7 @@ header ul li a:hover {
 
 .website-card-bottom h4:hover {
     cursor: pointer;
-    color: #a60b97;
+    opacity: .8;
 }
 
 .person-category {
