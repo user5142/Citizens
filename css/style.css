@@ -196,7 +196,7 @@ button:hover {
     flex-flow: row;
     align-items: center;
     justify-content: space-between;
-    height: 5rem;
+    height: 4.5rem;
     max-width: 100%;
 }
 
