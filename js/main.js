@@ -58,6 +58,13 @@ if (header2 != undefined) {
 `
 }
 
+// Footer component
+const footer = document.querySelector("#footer");
+if (footer != undefined) {
+  footer.innerHTML = `<p>© Citizens of the Internet 5202 • Built with vanilla HTML, CSS and JavaScript</p>
+`
+}
+
 // Display and hide hamburger menu on click
 const burgerMenu = () => {
   const burgerMenu = document.querySelector("#burger-links");
